@@ -1,7 +1,7 @@
-## Put comments here that give an overall description of what your
-## functions do
-
-## Write a short comment describing this function
+#Functions calculate inverse of a matrix and cache the solution.
+## I simply set the input x as a matrix
+## and then set the solved value "s" as a null
+## then I changed every reference to "mean" to "solve"
 
 makeCacheMatrix <- function(x = matrix(sample(1:100,9),3,3)) {
 
@@ -19,7 +19,7 @@ makeCacheMatrix <- function(x = matrix(sample(1:100,9),3,3)) {
 }
 
 
-## Write a short comment describing this function
+## Same here, changed "mean" to "solve" and "m" to "s"
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
